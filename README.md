@@ -2,6 +2,7 @@
 bash script to auto-deploy your iOS CloudBuild directly to App Store
 
 # Usage:
+- Update your project version + build number to a valid App Store version (have to be a new version to be uploaded)
 - Add this bashscript in your Unity project.
 - Setup your Unity iOS Cloud-build. (iOS platform, Signing credentials, provisionning profile etc)
 - Under Advanced Options, configure the script relative path as Post-Build Script, see example:
